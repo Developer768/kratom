@@ -12,7 +12,7 @@ export default function PagesLayout({
       <TopBar />
         <Header />
         {children}
-        <Footer />
+        <Footer /> 
     </main>
   );
 }

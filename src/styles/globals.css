@@ -24,6 +24,8 @@
     --grey: 0, 0%, 95%;
     /* #8F8F8F */
     --dark-grey: 0, 0%, 56%;
+    /* #505050 */
+    --text-grey: 0, 0%, 31%;
     /* #707070 */
     --dark-bg: 0, 0%, 44%;
     /* #314F39 */
@@ -102,6 +104,12 @@
   }
   .max-w {
     @apply mx-auto max-w-[1725px];
+  }
+  .salome-large {
+    @apply font-salome leading-none text-[38px] md:text-[48px] lg:text-[56px] xl:text-[56px] 2xl:text-[56px] 3xl:text-[62px] 4xl:text-[72px]
+  }
+  .salome-small {
+    @apply font-salome leading-none text-[28px] md:text-[38px] lg:text-[48px] xl:text-[48px] 2xl:text-[48px] 3xl:text-[48px] 4xl:text-[55px]
   }
 }
 

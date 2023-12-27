@@ -9,7 +9,8 @@ module.exports = {
 	],
   theme: {
     fontFamily: {
-      dmSans: ["var(--font-dmSans)"]
+      dmSans: ["var(--font-dmSans)"],
+      salome: ["var(--font-salome)"]
     },
     screens: {
       sm: { max: "480px" },
@@ -38,6 +39,7 @@ module.exports = {
         accordionBg: "hsl(var(--accordion-bg))",
         golden: "hsl(var(--golden))",
         grey: "hsl(var(--grey))",
+        textGrey: "hsl(var(--text-grey))",
         darkGrey: "hsl(var(--dark-grey))",
         darkBg: "hsl(var(--dark-bg))",
         bgGreenGrey: "hsl(var(--bg-green-grey))",
